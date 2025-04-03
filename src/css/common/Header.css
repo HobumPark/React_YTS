@@ -48,9 +48,9 @@
 }
 
 #search-nav-wrap>#search {
-    width: 35%;
+    width: auto;
     height: 100%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     position: relative;
 }
 

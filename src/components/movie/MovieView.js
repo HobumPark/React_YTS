@@ -124,9 +124,9 @@ class MovieView extends Component{
               <img src={defaultAvatar} alt='default avatar'/>:
               <img src={data.url_small_image} alt='profile'/>
             }
-          <span>{data.name}</span>
-          <b> as </b>
-          <span>{data.character_name}</span>
+          <span className='actor-name'>{data.name}</span>
+          <b className="as"> as </b>
+          <span className='character-name'>{data.character_name}</span>
           </div>)
       )
     }
@@ -268,7 +268,7 @@ class MovieView extends Component{
               <div id='review-area'>
                   <h1>
                     <FontAwesomeIcon icon={faStar} color='#6ac045'/>
-                    Reviews
+                    Movie Reviews
                   </h1>
               </div>
           </div>

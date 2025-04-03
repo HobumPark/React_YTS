@@ -5,13 +5,13 @@
 #movie-view{
   width:100%;
   height:2700px;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
 }
 
 #movie-view-inner{
   width:1600px;
   height:1900px;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   margin:0 auto;
   padding:40px 0px;
   box-sizing: border-box;
@@ -22,13 +22,13 @@
 #movie-view-inner>#movie-info{
   width:100%;
   height:40%;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 #movie-info>#movie-cover{
   float:left;
   width:30%;
   height:100%;
-  background-color: darkcyan;
+  /* background-color: darkcyan; */
   padding:20px 40px;
   box-sizing: border-box;
 }
@@ -43,11 +43,11 @@
   margin:0 auto;
 }
 #movie-cover>button:nth-child(2){
-  background-color: #6AC045;
+  /* background-color: #6AC045; */
   margin-bottom: 15px;
 }
 #movie-cover>button:nth-child(3){
-  background-color: #00FFE7A3;
+  /* background-color: #00FFE7A3; */
 }
 #movie-info>#movie-cover>#movie-cover-image{
   width:350px;
@@ -59,9 +59,15 @@
   margin:0 auto;
   margin-bottom: 10px;
 }
+#movie-cover>#down-btn{
+  background-color: #6AC045;
+}
 #movie-cover>#down-btn:hover{
   opacity:0.8;
   transition: 0.5s;
+}
+#movie-cover>#watch-btn{
+  background: #00FFE7A3;
 }
 #movie-cover>#watch-btn:hover{
   opacity:0.8;
@@ -82,7 +88,7 @@
   float:left;
   width:40%;
   height:100%;
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
   padding-top:20px;
   box-sizing: border-box;
 }
@@ -90,7 +96,7 @@
   color:#fff;
   font-weight: bold;
   width:100%;
-  background-color: bisque;
+  /* background-color: bisque; */
   margin-bottom: 5px;
   padding:5px 20px;
   box-sizing: border-box;
@@ -203,14 +209,14 @@
   float:left;
   width:30%;
   height:100%;
-  background-color: darkorange;
+  /* background-color: darkorange; */
   padding-top:20px;
   box-sizing: border-box;
 }
 #movie-suggest>h1{
   width:100%;
   height:50px;
-  background-color: bisque;
+  /* background-color: bisque; */
   color:#fff;
   font-size:24px;
   font-weight: bold;
@@ -221,13 +227,13 @@
 #movie-suggest>#similar-movies{
   width:100%;
   height:100%;
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
 }
 
 #similar-movies>#similar-movies-inner{
   width:95%;
   height:93%;
-  background-color: brown;
+  /* background-color: brown; */
 
   position: relative;
   top:10px;
@@ -269,7 +275,7 @@
 #movie-view-inner>#movie-screen-shot{
   width:100%;
   height:30%;
-  background-color: chocolate;
+  /* background-color: chocolate; */
   padding-top:20px;
   padding-left:30px;
   box-sizing: border-box;
@@ -311,16 +317,16 @@
 #movie-view-inner>#movie-summary-cast{
   width:100%;
   height:30%;
-  background-color: coral;
+  /* background-color: coral; */
 }
 #movie-summary-cast>#summary{
   float:left;
   width:50%;
   height:100%;
-  background-color: gold;
+  /* background-color: gold; */
 }
 #summary>h1{
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
   margin-bottom: 5px;
   color:#fff;
 }
@@ -328,30 +334,30 @@
   margin-bottom: 5px;
 }
 #summary>#summary-inner{
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
 }
 #summary>#uploaded-date{
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
 }
 
 #movie-summary-cast>#cast{
   float:left;
   width:50%;
   height:100%;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
 }
 
 #cast>h1{
   color:#fff;
-  background-color: #444;
+  /* background-color: #444; */
   margin-bottom: 5px;
   padding-left: 10px;
   box-sizing: border-box;
 }
 
 #cast>div{
-  width:90%;
-  background-color: #444;
+  width:70%;
+  /* background-color: #444; */
   margin-bottom: 5px;
   border-bottom: 2px solid #999;
   padding:10px;
@@ -361,24 +367,35 @@
   border-radius: 100%;
 }
 
+.actor-name{
+  color:#808080;
+}
+.as{
+  font-weight: normal;
+  color:#ffffff;
+}
+.character-name{
+  color:#ffffff;
+}
+
 /*4행 - 스펙,화질*/
 #tech-specs{
   width:100%;
   height:300px;
-  background-color: chocolate;
+  /* background-color: chocolate; */
 }
 
 #tech-specs-title{
   width:100%;
   height:50px;
-  background-color: palegoldenrod;
+  /* background-color: palegoldenrod; */
   padding:5px 10px;
   box-sizing: border-box;
 }
 #tech-specs-title>span{
   font-size:24px;
   font-weight: bold;
-  color:#777;
+  color:#ffffff;
   margin-right:10px;
 }
 #tech-specs-title>button{
@@ -401,34 +418,35 @@
 #tech-specs-contents{
   width:100%;
   height:250px;
-  background-color: lavender;
+  /* background-color: lavender; */
 }
 #tech-specs-contents>div{
   width:100%;
   height:100%;
 }
 #spec-720{
-  background-color: paleturquoise;
+  /* background-color: paleturquoise; */
 }
 #spec-1080{
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
 }
 
 /*5행 - 댓글, 리뷰*/
 #comments-and-review{
   width:100%;
   height:500px;
-  background-color: darkgoldenrod;
+  /* background-color: darkgoldenrod; */
 }
 
 #comments-area{
   float:left;
   width:50%;
   height:100%;
-  background-color: gold;
+  /* background-color: gold; */
 }
 #comments-area>h1{
-  background-color:papayawhip;
+  /* background-color:papayawhip; */
+  color:#ffffff;
   padding-left:5px;
   box-sizing: border-box;
 }
@@ -440,10 +458,11 @@
   float:left;
   width:50%;
   height:100%;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
 }
 #review-area>h1{
-  background-color:papayawhip;
+  /* background-color:papayawhip; */
+  color:#ffffff;
   padding-left:5px;
   box-sizing: border-box;
 }
