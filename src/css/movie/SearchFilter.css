@@ -17,7 +17,7 @@
 #search-filter-wrap-inner>#search-input-wrap{
     width:90%;
     height:50%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     /* background-color: #171717;; */
     margin:0 auto;
     margin-bottom: 20px;
@@ -68,7 +68,7 @@
     width:90%;
     height:100px;
     margin:0 auto;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     text-align: center;
     padding:5px;
     box-sizing: border-box;
@@ -76,12 +76,13 @@
 
 #filter-wrap>div{
     display:inline-block;
-    background-color: paleturquoise;
+    /* background-color: paleturquoise; */
     margin-right:20px;
     margin-bottom: 20px;
 }
 
 #filter-wrap>div>b{
+    text-align: left;
     font-size:30px;
     color:#666;
     display:block;

@@ -145,7 +145,7 @@
   width:1600px;
   padding:10px 20px;
   box-sizing: border-box;
-  background-color: darkgoldenrod;
+  /* background-color: darkgoldenrod; */
   /* background-color: #333; */
   height:50px;
   margin:0 auto;
@@ -172,7 +172,7 @@
 #latest-list-cont{
   width:1600px;
   height:1500px;
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
   /* background-color: #333; */
   margin:0 auto;
 }
@@ -180,7 +180,7 @@
 #latest-list-cont-inner{
   width:90%;
   height:100%;
-  background-color: darkmagenta;
+  /* background-color: darkmagenta; */
   /* background-color: #333; */
   padding-left:80px;
   padding-top:20px;
@@ -205,7 +205,7 @@
   width:1600px;
   padding:10px 20px;
   box-sizing: border-box;
-  background-color: darkgoldenrod;
+  /* background-color: darkgoldenrod; */
   /* background-color: #444; */
   height:45px;
   margin:0 auto;
@@ -231,7 +231,7 @@
 #upcoming-list-cont{
     width:1600px;
     height:calc(100% - 45px);
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     /* background-color: #444; */
     margin:0 auto;
 }
@@ -239,7 +239,7 @@
 #upcoming-list-cont-inner{
   width:90%;
   height:100%;
-  background-color: darkmagenta;
+  /* background-color: darkmagenta; */
   /* background-color: #444; */
   padding-left:80px;
   padding-top:20px;
