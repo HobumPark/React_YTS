@@ -1,0 +1,248 @@
+
+#home{
+  width:100%;
+  height:2700px;
+  /* background-color: #1D1D1D; */
+  margin:0 auto;
+  
+  position: relative;
+  z-index: 2;
+}
+
+#home>#home-header{
+  width:100%;
+  height:200px;
+  /* background-color: chartreuse; */
+  /* background-color: #444; */
+  margin:0 auto;
+  /* padding-top:30px; */
+  box-sizing: border-box;
+
+  position: relative;
+  z-index: 2;
+}
+
+#home>#home-header>h1{
+  color:#fff;
+  font-size:50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#home-header>span{
+  display:block;
+  width:100%;
+  /* background-color: darkkhaki; */
+  background-color: #444;
+  text-align: center;
+  color:#fff;
+  margin-bottom: 3px;
+}
+
+#home-header>span:last-child{
+  color:#428BCA;
+  font-weight: bold;
+}
+
+#home>#popular-list{
+  width:100%;
+  height:700px;
+  /* background-color: deepskyblue; */
+  /* background-color: #444; */
+  margin:0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/*배경이미지 오버레이*/
+#background-image{
+  position: absolute;
+  left:0px;
+  top:0px;
+  z-index: 0;
+  width:100%;
+  height:840px;
+  background: url(https://img.yts.mx/assets/images/movies/the_killers_game_2024/background.jpg) no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+#background-image::after {
+  content: ''; /* 가상 요소 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* 반투명 검정색 */
+}
+
+#popular-list-head{
+  width:1800px;
+  height:50px;
+  margin:0 auto;
+  border-bottom:1px solid #777;
+  margin-bottom: 10px;
+  padding-top:10px;
+  box-sizing: border-box;
+
+  position: relative;
+  z-index: 2;
+}
+
+#popular-list-head>span{
+  float:left;
+  height:30px;
+  font-size:20px;
+  font-weight: bold;
+}
+
+#popular-list-head>span:first-child{
+  width:70%;
+  /* background-color: gold; */
+  text-align: center;
+  color:#fff;
+}
+
+#popular-list-head>span:nth-child(2){
+  width:30%;
+  /* background-color: goldenrod; */
+  color:#428BCA;
+}
+
+#popular-list-cont{
+  width:1600px;
+  height:520px;
+  /* background-color: darkkhaki; */
+  /* background-color: #444; */
+  margin:0 auto;
+
+  position: relative;
+  z-index: 2;
+}
+
+#popular-list-cont>#popular-list-cont-inner{
+  width:90%;
+  height:100%;
+  /* background-color: darkmagenta; */
+  /* background-color: #444; */
+  padding-left:80px;
+  padding-top:20px;
+  box-sizing: border-box;
+  margin:0 auto;
+}
+
+/*최신 개봉*/
+#home>#latest-list{
+  width:100%;
+  height:1150px;
+  /* background-color: chocolate; */
+  background-color: #333;
+  margin:0 auto;
+}
+
+#latest-list-head{
+  width:1600px;
+  padding:10px 20px;
+  box-sizing: border-box;
+  background-color: darkgoldenrod;
+  /* background-color: #333; */
+  height:50px;
+  margin:0 auto;
+}
+
+#latest-list-head>span:first-child{
+  float:left;
+  color:#fff;
+  font-size:24px;
+  font-weight: bold;
+}
+
+#latest-list-head>span:nth-child(2){
+  float:right;
+  color:#777;
+  font-size:20px;
+}
+#latest-list-head>span:nth-child(2):hover{
+  color:#fff;
+  cursor: pointer;
+}
+
+
+#latest-list-cont{
+  width:1600px;
+  height:1500px;
+  background-color: darkkhaki;
+  /* background-color: #333; */
+  margin:0 auto;
+}
+
+#latest-list-cont-inner{
+  width:90%;
+  height:100%;
+  background-color: darkmagenta;
+  /* background-color: #333; */
+  padding-left:80px;
+  padding-top:20px;
+  box-sizing: border-box;
+  margin:0 auto;
+}
+
+#latest-list-cont-inner>div:nth-child(4){
+  display:block !important;
+}
+
+/*개봉 예정*/
+#home>#upcoming-list{
+  width:100%;
+  height:650px;
+  /* background-color: cornflowerblue; */
+  background-color: #444;
+  margin:0 auto;
+}
+
+#upcoming-list-head{
+  width:1600px;
+  padding:10px 20px;
+  box-sizing: border-box;
+  background-color: darkgoldenrod;
+  /* background-color: #444; */
+  height:45px;
+  margin:0 auto;
+}
+
+#upcoming-list-head>span:first-child{
+  float:left;
+  color:#fff;
+  font-size:24px;
+  font-weight: bold;
+}
+
+#upcoming-list-head>span:nth-child(2){
+  float:right;
+  color:#777;
+  font-size:20px;
+}
+#upcoming-list-head>span:nth-child(2):hover{
+  color:#fff;
+  cursor: pointer;
+}
+
+#upcoming-list-cont{
+    width:1600px;
+    height:calc(100% - 45px);
+    background-color: chartreuse;
+    /* background-color: #444; */
+    margin:0 auto;
+}
+
+#upcoming-list-cont-inner{
+  width:90%;
+  height:100%;
+  background-color: darkmagenta;
+  /* background-color: #444; */
+  padding-left:80px;
+  padding-top:20px;
+  box-sizing: border-box;
+  margin:0 auto;
+}

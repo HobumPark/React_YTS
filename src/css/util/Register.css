@@ -1,0 +1,28 @@
+
+#register-wrap{
+    width:100%;
+    height:auto;
+    background-color: darkgray;
+    padding:30px 0px;
+    box-sizing: border-box;
+}
+
+#register-wrap>input,button{
+    display:block;
+    font-size:18px;
+    width:80%;
+    height:100px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#register-wrap>input{
+    padding-left:20px;
+    box-sizing: border-box;
+}
+#register-wrap>button{
+    font-size:24px;
+    color:#fff;
+    background-color: #6AC045;
+}

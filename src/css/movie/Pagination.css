@@ -1,0 +1,109 @@
+#pagination{
+    width:100%;
+    height:150px;
+    padding-top:20px;
+    box-sizing: border-box;
+    padding-bottom:30px;
+    /* background-color: #777; */
+    /* background-color: #1D1D1D; */
+    background-color: palegreen;
+    margin:0 auto;
+}
+
+#pagination>span:first-child{
+    width:1000px;
+    height:40px;
+    background-color: indigo;
+    display: block;
+    margin:-10px auto;
+    font-size:26px;
+}
+
+#pagination>span:nth-child(3){
+    width:1000px;
+    height:40px;
+    background-color: khaki;
+    display: block;
+    margin:-10px auto;
+    font-size:26px;
+}
+
+#pagination>#page-list{
+    width:90%;
+    height:50px;
+    /* background-color:#777 ; */
+    background-color: #1D1D1D;
+    margin:30px auto;
+    text-align: center;
+}
+#current-page-info{
+    color:#6AC045;
+    font-weight: bold;
+    text-align: center;
+    font-size:30px;
+}
+
+#page{
+    border:1px solid black;
+    background-color: #fff;
+    text-align: center;
+    margin-right:2px;
+    width:45px;
+    height:45px;
+    font-size:26px;
+    display: inline-block;
+    font-weight: normal;
+
+    padding-top:4px;
+    box-sizing: border-box;
+    margin-right:10px;
+
+    border-radius: 10px;
+    cursor: pointer;
+
+    /* 드래그 방지 */
+    /*커서 깜빡임 방지*/
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+#page:hover{
+    background-color:#6AC045 !important;
+    color:#fff;
+    transition: 0.4s;
+}
+
+.active{
+    background-color:#6AC045 !important;
+    color:#fff;
+}
+
+@media (max-width: 1550px){
+    #pagination{
+        height:200px;
+        /* background-color: chartreuse; */
+    }
+}
+
+@media (max-width: 1140px){
+    #pagination{
+        height:200px;
+        /* background-color: chartreuse; */
+    }
+}
+
+@media (max-width: 720px){
+    #pagination{
+        height:250px;
+        /* background-color: chartreuse; */
+    }
+}
+@media (max-width: 520px){
+    #pagination{
+        height:280px;
+        /* background-color: chocolate; */
+    }
+}

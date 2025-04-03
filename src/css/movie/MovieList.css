@@ -1,0 +1,80 @@
+
+#movie-list{
+    width:100%;
+    height:2100px;
+    background-color: cadetblue;
+    /* background-color: #1D1D1D; */
+    padding-left:6%;
+    padding-top:20px;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+@media (max-width: 1902px){
+    #movie-list{
+        padding-left:calc(30% - 400px);
+         background-color: rebeccapurple;
+    }
+}
+
+@media (max-width: 1630px){
+    #movie-list{
+        width:95%;
+        height:2600px;
+         background-color: palevioletred;
+    }
+}
+
+@media (max-width: 1500px){
+    #movie-list{
+        width:95%;
+        height:2600px;
+         background-color: red;
+    }
+}
+
+@media (max-width: 1393px){
+    #movie-list{
+        height:auto;
+        background-color: orange;
+    }
+    #movie-list>div{
+       float:none;
+       display: inline-block;
+    }
+    #movie-list>div:nth-child(2n+1){
+        margin-right:calc(80% - 600px);
+        background-color: green;
+    }
+    #movie-list>div:nth-child(2n){
+        background-color: goldenrod;
+    }
+}
+
+@media (max-width: 1300px){
+    #movie-list{
+        height:auto;
+        background-color: orange;
+    }
+    #movie-list>div{
+       float:none;
+       display: inline-block;
+    }
+    #movie-list>div:nth-child(2n+1){
+        margin-right:calc(80% - 600px);
+        background-color: green;
+    }
+    #movie-list>div:nth-child(2n){
+        background-color: goldenrod;
+    }
+}
+
+@media (max-width: 810px){
+    #movie-list{
+        padding-left:calc(20% - 100px);
+        box-sizing: border-box;
+    }
+    #movie-list>div{
+        display:block;     
+    }
+}

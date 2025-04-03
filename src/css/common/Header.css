@@ -1,0 +1,160 @@
+#header {
+    width: 100%;
+    height: 90px;
+    background-color: palegreen;
+    text-align: center;
+    border-bottom: 1px solid #777;
+    display: flex; /* 부모 요소를 flexbox로 설정 */
+    justify-content: center; /* 자식 요소들을 가운데 정렬 */
+    align-items: center; /* 자식 요소들을 세로로 가운데 정렬 */
+}
+
+#header>#header-inner {
+    width: 1800px;
+    height: 100%;
+    background-color: paleturquoise;
+    display: flex; /* 내부 요소들도 flexbox로 설정 */
+    justify-content: space-between; /* 자식 요소들 사이에 공간을 분배 */
+    align-items: center; /* 세로로 가운데 정렬 */
+    margin: 0 auto;
+}
+
+#header-inner>#logo {
+    width: 20%;
+    height: 100%;
+    background-color: #1D1D1D;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: flex; /* 자식 요소들 정렬 */
+    align-items: center; /* 세로로 가운데 정렬 */
+}
+
+#header-inner>#logo>span {
+    color: #888;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#search-nav-wrap {
+    display: flex; /* 플로팅 요소를 flexbox로 변환 */
+    justify-content: flex-end; /* 우측 정렬 */
+    width: 80%;
+    height: 100%;
+    background-color: papayawhip;
+    align-items: center; /* 세로로 가운데 정렬 */
+}
+
+#search-nav-wrap>#search {
+    width: 35%;
+    height: 100%;
+    background-color: chartreuse;
+    position: relative;
+}
+
+#search-nav-wrap>#search>img {
+    position: absolute;
+    left: 10px;
+    top: 33px;
+    z-index: 2;
+    width: 15px;
+    height: 15px;
+}
+
+#search-nav-wrap>#search>input {
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    color: #888;
+    padding-left: 30px;
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+}
+
+#search-nav-wrap>#nav {
+    width: 500px;
+    height: 100%;
+    background-color: #1D1D1D;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    display: flex; /* 플로팅 요소를 flexbox로 변환 */
+    justify-content: space-between; /* 네비게이션 링크들을 분배 */
+    align-items: center; /* 세로로 가운데 정렬 */
+}
+
+#search-nav-wrap>#nav>ul>li {
+    float:left;
+    margin-right: 15px;
+}
+
+#search-nav-wrap>#nav>ul>li>a {
+    color: #888;
+}
+
+#search-nav-wrap>#nav>ul>li>a:hover {
+    color: #fff;
+}
+
+#search-nav-wrap>#nav>ul>li:nth-child(2)>a {
+    color: #6AC045;
+    font-weight: bold;
+}
+
+#search-nav-wrap>#nav>ul>li:nth-child(5)>a {
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+}
+
+#search-nav-wrap>#nav>ul>li:nth-child(5)>a::after {
+    content: '|';
+    position: absolute;
+    left: 47px;
+}
+
+#search-nav-wrap>#nav>ul>li:nth-child(6)>a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    width: 1600px;
+    z-index: 2;
+}
+
+@media (max-width: 1600px) {
+    #header>#header-inner {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1443px) {
+    #header-inner>#logo>span {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+    #header {
+        height: 150px;
+    }
+    #header-inner>#logo{
+        width:auto;
+    }
+    #search-nav-wrap>#nav {
+       width:auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #header {
+        height: 200px;
+    }
+}

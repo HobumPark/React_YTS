@@ -1,0 +1,47 @@
+
+#member-wrap{
+    width:1200px;
+    height:auto;
+    background-color: cadetblue;
+    position: fixed;
+    left:20%;
+    top:10%;
+    z-index: 9;
+    border-radius: 10px;
+
+    box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3); 
+}
+
+#member-wrap>#tab-btn{
+    width:100%;
+    height:150px;
+    background-color: paleturquoise;
+}
+#tab-btn>button{
+    float:left;
+    width:50%;
+    height:100%;
+    font-size:30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.member-tab-active{
+
+}
+
+#member-wrap>#contents{
+    width:100%;
+    /* height:450px; */
+    height:auto;
+    background-color: palevioletred;
+}
+#member-wrap>#contents>span{
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    color:#fff;
+    font-size:24px;
+    font-weight: bold;
+    cursor: pointer;
+}
